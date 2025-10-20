@@ -1,0 +1,74 @@
+/* Основные настройки */
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f0f8f0;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    background: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Меню */
+.menu {
+    background: #333;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background: #4CAF50;
+}
+
+/* Контент */
+.content {
+    padding: 20px;
+}
+
+/* Блоки с текстом */
+.block {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.block h2 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+/* Списки */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Подвал */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
